@@ -1,0 +1,114 @@
+@media only screen and (min-width: 992px){
+
+body{
+    box-sizing: content-box;
+width: 100%;
+    background-image: url(../images/bg-body.png);
+}
+
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+ margin: 0.auto;
+ width: 1400px;
+}
+    img.logo{
+        border-radius: 50%;
+        width:5x;
+        position: relative;
+        left: 640px;
+        top: 15px;
+    }
+  .main-nav ul li {  
+        list-style-type: none;
+        display: block;
+        float: left;
+        width: 180px; 
+        height: 50px;
+        background-color: black;
+        margin: 20px;
+         }
+         a{
+            text-decoration: none;
+            color:white;
+            position: relative;
+            top: 12px;
+            left: 60px;
+         }
+        
+            .banner img {
+                width: 1300px;
+                margin: 40px;
+                
+           }
+          
+          
+            .product{
+            width: 380px;
+            height: auto;
+                position: relative;
+                float: left;
+                margin:30px ;
+                
+            }
+            .photo-container{
+                position: relative;
+            }
+
+            img.special{
+                position: absolute;
+                right:10px ;
+            }
+            img.photo{
+                width: 380px;
+            }
+            .zoom{
+                position: absolute;
+                width: 380px;
+                height: 40px;
+                left: 0px;
+                top:100px;
+                text-align: center;
+                background-color: black;
+                opacity: 0.5;
+            }
+            .more{
+                text-size-adjust: 4px;
+                position: absolute;
+                width: 70px;
+                height: 30px;
+                left: 0px;
+                top:324px;
+                background-color: black;
+                opacity: 0.5;
+            }
+          
+               
+            
+            .main-footer ul {
+              position: absolute;
+                top:1510px;
+                background-color: red;
+                overflow:hidden;
+                border-top-left-radius:5% ;
+                border-top-right-radius:5% ;
+               width: 100%;
+
+               
+              }
+
+              .main-footer li {
+                display: inline-block;
+                padding: 14px;
+                text-decoration: none;
+                
+              }
+
+              .main-footer a{
+                    padding-left: 50px;
+                    text-decoration: none;
+                    color:white;
+                    text-align: center;
+                 }
+                }
